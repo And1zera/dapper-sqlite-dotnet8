@@ -1,0 +1,13 @@
+﻿Para criar a tabela no SQLite, o script SQL é um pouco diferente, pois o SQLite não possui suporte nativo para UNIQUEIDENTIFIER. Podemos usar o tipo TEXT para armazenar o GUID. Além disso, o SQLite usa CURRENT_TIMESTAMP como valor padrão para a data e hora. Aqui está a versão ajustada do script SQL para SQLite:
+
+Execute o script no banco de dados criado pela aplicação:
+
+CREATE TABLE Users (
+    ID TEXT PRIMARY KEY NOT NULL,
+    Name TEXT NOT NULL,
+    Email TEXT NOT NULL,
+    CreatedDate TEXT NOT NULL DEFAULT (datetime('now')),
+    UpdatedDate TEXT,
+    RemovedDate TEXT,
+    Removed INTEGER NOT NULL DEFAULT 0
+);
