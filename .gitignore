@@ -68,3 +68,6 @@ _ReSharper*/
 
 # Mac OS files
 .DS_Store
+
+# Visual Studio
+.vs
