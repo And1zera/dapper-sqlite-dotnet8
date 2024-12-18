@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapperdotnet8.Tests", "dapp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapperdotnet8.Data", "dapperdotnet8.Data\dapperdotnet8.Data.csproj", "{6719E71A-C770-4EEF-8E4C-04AB64DD3CFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapperdotnet8.Data.Dapper", "dapperdotnet8.Data.Postgres\dapperdotnet8.Data.Dapper.csproj", "{6249AA32-98FE-411F-A135-C1D0CA620B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dapperdotnet8.Data.Dapper", "dapperdotnet8.Data.Dapper\dapperdotnet8.Data.Dapper.csproj", "{6249AA32-98FE-411F-A135-C1D0CA620B9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
